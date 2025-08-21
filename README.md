@@ -60,7 +60,7 @@ sudo python3 ./CloakFront.py \
 4. Bundles the cert into a PKCS12 archive and then into a Java keystore.
 5. Spins up a CloudFront distribution tagged with your consultant name & description.
 6. Patches the existing Malleable C2 profile:
-   - Inserts the keystore path & password into the `https-certificate` block (or creates the `https-certificate` block if needed
+   - Inserts the keystore path & password into the `https-certificate` block (or creates the `https-certificate` block if needed)
    - Replaces any `*.cloudfront.net` host strings with the new distribution domain
 7. Outputs the modified profile at `base.profile.modified`.
 
