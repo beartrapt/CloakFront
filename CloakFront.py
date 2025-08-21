@@ -15,9 +15,9 @@ Usage
 sudo python3 c2_setup.py \
   --domain myc2.example.com \
   --cloudflare-token $CF_TOKEN \
-  --email doesntmatter@example.com \
+  --email yourname@email.com \
   --aws-key $AWS_KEY --aws-secret $AWS_SECRET \
-  --consultant j.doe --description "120789-rta" \
+  --consultant j.doe --description "opp-1234" \
   --profile /opt/cobaltstrike/profiles/base.profile [--no-cert]
 ```
 """
