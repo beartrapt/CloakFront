@@ -25,7 +25,7 @@ source: https://bigb0ss.medium.com/redteam-c2-redirector-cloud-fronting-setup-aw
 
 ## Installation
 
-1. Clone or copy the script into your C2 tools directory:
+1. Clone the repo:
    ```bash
    git clone https://github.com/beartrapt/CloakFront
    cd CloakFront
